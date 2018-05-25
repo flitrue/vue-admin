@@ -1,7 +1,8 @@
 # vue-admin
 
 ## 项目技术架构
-***
+
+*
 *  vue-cli
 *  vue
 *  vue-resource
