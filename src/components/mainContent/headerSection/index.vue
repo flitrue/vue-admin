@@ -7,7 +7,7 @@
   </div>
 </template>
 <script type="text/javascript">
-  import menuRight from './menuRight'
+  import menuRight from './menuRight/index.vue'
   import search from 'components/search'
 
   export default{
@@ -17,10 +17,11 @@
     },
     methods: {
       submit_search(value) {
-        this.$message({
+        /*this.$message({
           message: value,
           type: 'success'
-        })
+        })*/
+        this.$router.push({name: "search",params: {keyword: value}})
       }
     }
   }

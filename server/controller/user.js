@@ -1,11 +1,11 @@
 /**
- * Created by zzmhot on 2017/3/21.
+ * Created by 王平平 on 2017/3/23.
  *
- * @author: zzmhot
+ * @author: 王平平
  * @github: https://github.com/zzmhot
- * @email: zzmhot@163.com
- * @Date: 2017/3/21 10:50
- * @Copyright(©) 2017 by zzmhot.
+ * @email: 812863096@qq.com
+ * @Date: 2017/3/23 18:19
+ * @Copyright(©) 2017 by 王平平.
  *
  */
 var mock = require('../mock/user')

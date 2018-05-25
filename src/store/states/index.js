@@ -1,11 +1,8 @@
 /**
- * Created by zzmhot on 2017/3/21.
+ * Created by 王平平 on 2017/3/21.
  *
- * @author: zzmhot
- * @github: https://github.com/zzmhot
- * @email: zzmhot@163.com
- * @Date: 2017/3/21 16:04
- * @Copyright(©) 2017 by zzmhot.
+ * @author: 王平平
+ * @github: https://github.com/flitrue
  *
  */
 
@@ -13,5 +10,7 @@ export default {
   //用户信息
   user_info: new Object(),
   //用户是否登录
-  user_login: false
+  user_login: false,
+    // 用户选择的文章类型
+    category: 1
 }

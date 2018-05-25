@@ -17,6 +17,7 @@
 
 <script type="text/javascript">
   import {mainContent} from 'components'
+  import personAdd from "pages/person/add"
   import NprogressContainer from 'vue-nprogress/src/NprogressContainer'
 
   export default {

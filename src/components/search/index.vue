@@ -28,6 +28,7 @@
       submit_form() {
         if (!this.valueIsNull) {
           this.$emit('search', this.formValue)
+            this.formValue = '';
         }
         return false
       }

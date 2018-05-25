@@ -1,5 +1,5 @@
 /**
- * Created by zzmhot on 2017/1/13.
+ * Created by flitrue on 2017/3/21.
  *
  * 对Date的扩展，将 Date 转化为指定格式的String
  * 月(M)、日(d)、小时(h)、分(m)、秒(s)、季度(q) 可以用 1-2 个占位符，
@@ -8,15 +8,11 @@
  * (new Date()).Format("yyyy-MM-dd hh:mm:ss.S") ==> 2006-07-02 08:09:04.423
  * (new Date()).Format("yyyy-M-d h:m:s.S")      ==> 2006-7-2 8:9:4.18
  *
- *
- * @author: zzmhot
- * @github: https://github.com/zzmhot
- * @email: zzmhot@163.com
- * @Date: 2017/1/13 14:15
- * @Copyright(©) 2017 by zzmhot.
+ * @author: flitrue
+ * @github: https://github.com/flitrue
  *
  */
-const DateFormat = function (fmt) { //author: meizz
+const DateFormat = function (fmt) {
   var o = {
     "M+": this.getMonth() + 1,                 //月份
     "d+": this.getDate(),                    //日
@@ -33,5 +29,4 @@ const DateFormat = function (fmt) { //author: meizz
       fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
   return fmt;
 }
-
 module.exports = DateFormat

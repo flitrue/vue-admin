@@ -1,11 +1,8 @@
 /**
- * Created by zzmhot on 2017/3/21.
+ * Created by 王平平 on 2017/3/21.
  *
- * @author: zzmhot
- * @github: https://github.com/zzmhot
- * @email: zzmhot@163.com
- * @Date: 2017/3/21 16:04
- * @Copyright(©) 2017 by zzmhot.
+ * @author: 王平平
+ * @github: https://github.com/flitrue
  *
  */
 
@@ -17,5 +14,9 @@ export default {
   //设置用户是否登录
   SET_USER_LOGIN(state, status){
     state.user_login = status
+  },
+    //设置用户选择的文档类型
+    SET_ARTICLE_CATEGORY(state, category){
+    state.category = category
   }
 }

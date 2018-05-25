@@ -1,13 +1,10 @@
 /**
- * Created by zzmhot on 2017/3/23.
+ * Created by 王平平 on 2017/4/24.
  *
  * 状态管理器
  *
- * @author: zzmhot
- * @github: https://github.com/zzmhot
- * @email: zzmhot@163.com
- * @Date: 2017/3/23 18:24
- * @Copyright(©) 2017 by zzmhot.
+ * @author: 王平平
+ * @github: https://github.com/flitrue
  *
  */
 

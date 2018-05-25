@@ -19,7 +19,7 @@ var user_info = {
   'desc': '@csentence()'
 }
 
-var is_login = Math.random() >= 0.5
+var is_login = 1
 
 exports.login = Mock.mock({
   code: port_code.success,
@@ -33,7 +33,7 @@ exports.logout = Mock.mock({
 
 exports.info = Mock.mock({
   code: is_login ? port_code.success : port_code.unlogin,
-  msg: is_login ? "获取成功" : "您还没有登录，请登录！",
+  msg: is_login ? "获取成功" : "请登录！",
   data: is_login ? user_info : null,
   is_login: is_login
 })

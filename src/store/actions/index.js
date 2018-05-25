@@ -1,11 +1,8 @@
 /**
- * Created by zzmhot on 2017/3/21.
+ * Created by 王平平 on 2017/3/21.
  *
- * @author: zzmhot
- * @github: https://github.com/zzmhot
- * @email: zzmhot@163.com
- * @Date: 2017/3/21 16:04
- * @Copyright(©) 2017 by zzmhot.
+ * @author: 王平平
+ * @github: https://github.com/flitrue
  *
  */
 
@@ -14,5 +11,8 @@ export default {
     let _user = user === null ? new Object() : user
     commit('SET_USER_INFO', _user)
     commit('SET_USER_LOGIN', is_login)
+  },
+  set_article_category({commit},category){
+      commit("SET_ARTICLE_CATEGORY", category);
   }
 }

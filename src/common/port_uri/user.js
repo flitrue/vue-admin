@@ -8,10 +8,11 @@
  * @Copyright(©) 2017 by zzmhot.
  *
  */
+const rootURI = "https://mis.flitrue.com";
 
 //获取用户信息
-exports.info = "/api/get/user/info"
+exports.info = `${rootURI}/api/user/info`
 //用户登录
-exports.login = "/api/post/user/login"
+exports.login = `${rootURI}/api/user/login`
 //用户登出
-exports.logout = "/api/post/user/logout"
+exports.logout = `${rootURI}/api/user/logout`

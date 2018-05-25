@@ -6,7 +6,7 @@
         <div class="wrapper">
           <div class="pageContent">
             <el-row>
-              <el-col :span="24">
+              <el-col :span="24" style="height: 100%;">
                 <slot></slot>
               </el-col>
             </el-row>
@@ -27,3 +27,7 @@
     }
   }
 </script>
+
+<style lang="scss" type="text/css" rel="stylesheet/scss" scoped>
+
+</style>

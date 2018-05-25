@@ -1,0 +1,100 @@
+$box-shadow: 0 3px 15px rgba(0,0,0,.2), 0 -2px 6px rgba(0,0,0,.2);
+
+.box{
+  margin: auto 0;
+  padding: 10px;
+}
+.box-info{
+
+}
+.my-upload {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer
+}
+.my-upload--picture-card {
+  background-color: #fbfdff;
+  border: 1px dashed #c0ccda;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  line-height: 200px;
+  vertical-align: top
+}
+
+.my-upload--picture-card i {
+  font-size: 28px;
+  color: #8c939d
+}
+
+.my-upload--picture-card:hover {
+  border-color: #20a0ff;
+  color: #20a0ff
+}
+
+.person{
+  width: 220px;
+  float: left;
+  &-comment{
+    background-color: white;
+    height: 175px;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    color: #7d7d7d;
+    font-size: 14px;
+    box-shadow: $box-shadow;
+    transform:rotate(5deg);
+    z-index: 200;
+  }
+}
+.info{
+  width: 100%;
+  float: left;
+}
+// 表格样式
+tr{
+  cursor: pointer;
+}
+td{
+  width: 25%;
+  height: 40px;
+  vertical-align: middle;
+  border-right: 1px solid #dfe6ec;
+  border-bottom: 1px solid #dfe6ec;
+  padding-left: 18px;
+  i{
+    font-size: 10px;
+    color: #65CEA7;
+  }
+  span{
+    margin: 10px;
+  }
+}
+.edit{
+  font-size: 10px;
+  color: #65CEA7;
+  margin-right: 10px;
+}
+
+.header{
+  border-top: 1px solid #dfe6ec;
+}
+.value{
+  width: 75%;
+  border-right: 0px;
+}
+.sex{
+  font-size: 24px;
+}
+.info-input{
+  width: 200px;
+}
+//词云
+
+.word-cloud{
+  display: flex;
+  justify-content: center;
+}
