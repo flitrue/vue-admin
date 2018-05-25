@@ -18,7 +18,7 @@
 ***
 项目地址：(`git clone`)
 ```shell
-git clone https://github.com/zzmhot/vue-admin.git
+git clone https://github.com/flitrue/vue-admin.git
 ```
 通过`npm`安装本地服务第三方依赖模块(需要已安装[Node.js](https://nodejs.org/))
 
