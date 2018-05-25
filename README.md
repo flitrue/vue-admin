@@ -1,6 +1,6 @@
 # vue-admin
 
-### 项目技术架构
+# 项目技术架构
 ***
 *  vue-cli
 *  vue
@@ -13,7 +13,7 @@
 *  webpack
 *  mock
 
-###安装
+# 安装
 
 ***
 项目地址：(`git clone`)
