@@ -405,7 +405,7 @@
             }
         },
         mounted(){
-            this.url = "https://mis.flitrue.com/api/user/saveAvatar?uid="+Cookie.get("_uid");
+            this.url = "http://mis.flitrue.site/api/user/saveAvatar?uid="+Cookie.get("_uid");
             this.init();
             this.getInfo();
             this.getWordCloud();

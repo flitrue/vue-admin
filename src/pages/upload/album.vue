@@ -104,7 +104,7 @@
                 dialogImageUrl: "",
                 category: [],
                 dialogVisible: false,
-                action: "https://mis.flitrue.com/api/album/upload",
+                action: "http://mis.flitrue.site/api/album/upload",
                 imglist: [],
                 isClear: false
             }

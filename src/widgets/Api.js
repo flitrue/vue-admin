@@ -12,7 +12,7 @@ import VueResource from 'vue-resource';
 Vue.use(VueResource);
 
 //const rootURI = "http://192.168.31.45:8080";
-const rootURI = "https://mis.flitrue.com";
+const rootURI = "http://mis.flitrue.site";
 
 //扩展api添加access_token字段
 const Api = {

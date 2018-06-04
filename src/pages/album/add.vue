@@ -59,7 +59,7 @@
             return {
                 title: "创建相册",
                 isEdit: false,
-                action: "https://mis.flitrue.com/api/album/upload",
+                action: "http://mis.flitrue.site/api/album/upload",
                 show: false,
                 form: {
                     aid: "",

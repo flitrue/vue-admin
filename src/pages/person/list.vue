@@ -1,6 +1,6 @@
 <template>
     <div>
-        <a href="https://mis.flitrue.com/api/person/excel" target="_blank"><el-button type="primary" style="margin-bottom: 10px;">导出为Excel</el-button></a>
+        <a href="http://mis.flitrue.site/api/person/excel" target="_blank"><el-button type="primary" style="margin-bottom: 10px;">导出为Excel</el-button></a>
         <el-table
                 :data="tableData"
                 border
