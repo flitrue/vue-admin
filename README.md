@@ -3,7 +3,6 @@
 信息管理系统。 相关后端项目：[DMS](https://github.com/flitrue/DMS)
 ## 项目技术架构
 
-*
 *  vue-cli
 *  vue
 *  vue-resource
@@ -17,7 +16,6 @@
 
 ## 安装
 
-*
 项目地址：(`git clone`)
 ```shell
 git clone https://github.com/flitrue/vue-admin.git
@@ -37,4 +35,3 @@ npm run dev
 ```
 npm run build
 ```
-## 配置

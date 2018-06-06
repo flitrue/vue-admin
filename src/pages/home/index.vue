@@ -5,7 +5,7 @@
                 <el-row :gutter="10">
                     <div class="mypanel">
                         <el-carousel height="240px">
-                            <el-carousel-item v-for="item in carouselItems" :key="item">
+                            <el-carousel-item v-for="(item,index) in carouselItems" :key="index">
                                 <a :href="item.url" target="_blank"><img height="100%" width="100%" :src="item.img" :alt="item.title"></a>
                                 <!--<h3>{{item.title}}</h3>-->
                             </el-carousel-item>

@@ -33,7 +33,7 @@
                             sortable
                             label="状态"
                             width="200">
-                        <template scope="scope">
+                        <template slot-scope="scope">
                             <span v-show="show !== scope.row.id"><i class="edit el-icon-edit"></i>{{ scope.row.status }}</span>
                             <span v-show="show === scope.row.id" style="position: relative">
                                 <el-autocomplete
@@ -53,7 +53,7 @@
                             sortable
                             width="200"
                             label="申请时间">
-                        <template scope="scope">
+                        <template slot-scope="scope">
                             <el-icon name="time"></el-icon>
                             <span style="margin-left: 5px">{{ scope.row.time }}</span>
                         </template>
@@ -62,13 +62,13 @@
                     <el-table-column
                             prop="desc"
                             label="描述">
-                        <template scope="scope">
+                        <template slot-scope="scope">
                             {{ scope.row.desc}}
                         </template>
                     </el-table-column>
 
                     <!--<el-table-column label="操作" fixed="right" width="200">
-                        <template scope="scope">
+                        <template slot-scope="scope">
                             <div class="handler">
                                 <el-button
                                         size="small"

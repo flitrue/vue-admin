@@ -8,7 +8,7 @@
             <el-table-column
                     label="入职时间"
                     width="180">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <el-icon name="time"></el-icon>
                     <span style="margin-left: 10px">{{ scope.row.entrytime }}</span>
                 </template>
@@ -16,7 +16,7 @@
             <el-table-column
                     label="姓名"
                     width="180">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <div @click="detail(scope.row.id)"><el-tag>{{ scope.row.name }}</el-tag></div>
                     <el-popover trigger="hover" placement="top">
                         <div style="text-align: center">
@@ -41,7 +41,7 @@
             </el-table-column>
 
             <el-table-column label="操作" fixed="right" width="250">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <div class="handler">
                         <el-button
                                 size="small"

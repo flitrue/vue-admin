@@ -4,14 +4,14 @@
 
 import Vue from 'vue';
 import VueResource from 'vue-resource';
-
-// Vue.http.options.emulateJSON = true;
-// Vue.http.options.emulateHTTP = true;
-// Vue.http.options.xhr = { withCredentials: true };//跨域问题
-
 Vue.use(VueResource);
 
-//const rootURI = "http://192.168.31.45:8080";
+Vue.http.options.emulateJSON = true;
+Vue.http.options.emulateHTTP = true;
+Vue.http.options.xhr = { withCredentials: true };//跨域问题
+
+
+
 const rootURI = "http://mis.flitrue.site";
 
 //扩展api添加access_token字段

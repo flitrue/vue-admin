@@ -40,7 +40,7 @@
                     label="价格"
                     sortable
                     width="100">
-                <template scope="scope">
+                <template slot-scope="scope">
                     ¥{{ scope.row.price}}
                 </template>
             </el-table-column>
@@ -49,14 +49,14 @@
                     prop="buytime"
                     sortable
                 label="领用日期">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <el-icon name="time"></el-icon>
                     <span style="margin-left: 10px">{{ scope.row.usetime }}</span>
                 </template>
             </el-table-column>
 
             <el-table-column label="操作" fixed="right" width="230">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <div class="handler">
                         <el-button
                                 size="small"

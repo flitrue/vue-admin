@@ -14,7 +14,7 @@
                     label="姓名"
                     sortable
                     width="100">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <a href="javascript: ;" @click="detail(scope.row.id)">{{scope.row.name}}</a>
                 </template>
             </el-table-column>
@@ -23,7 +23,7 @@
                     label="状态"
                     sortable
                     width="100">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <span v-show="show !== scope.row.id"><i class="edit el-icon-edit"></i>{{ scope.row.status }}</span>
                     <span v-show="show === scope.row.id" style="position: relative">
                                 <el-autocomplete
@@ -70,14 +70,14 @@
                     prop="entrytime"
                     sortable
                     label="入职时间">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <el-icon name="time"></el-icon>
                     <span style="margin-left: 10px">{{ scope.row.entrytime }}</span>
                 </template>
             </el-table-column>
 
             <el-table-column label="操作" width="80">
-                <template scope="scope">
+                <template slot-scope="scope">
                     <el-popover placement="right" title="" width="50px" trigger="hover" content="">
                         <el-button type="primary" size="mini" @click="edit(scope.$index, scope.row)">编辑</el-button>
                         <el-button type="info" size="mini" @click="sendemail(scope.$index, scope.row)">发送邮件</el-button>
